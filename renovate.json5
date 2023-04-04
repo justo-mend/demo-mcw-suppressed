@@ -18,8 +18,8 @@
     /* Group High and Very High Confidence updates */
     {
       "groupName": "high merge confidence",
-      "matchConfidence": ["high", "very high"]
-      "addLabels": ["High Confidence"]
+      "matchConfidence": ["high", "very high"],
+      "addLabels": ["High\Very-High Confidence"]
     },
 
   ]
