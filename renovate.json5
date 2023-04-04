@@ -19,7 +19,7 @@
     {
       "groupName": "high merge confidence",
       "matchConfidence": ["high", "very high"],
-      "addLabels": ["High\Very-High Confidence"]
+      "addLabels": ["High confidence"]
     },
 
   ]
