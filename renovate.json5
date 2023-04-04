@@ -7,7 +7,7 @@
     {
       "matchConfidence": ["neutral"],
       "dependencyDashboardApproval": true,
-      "commitMessagePrefix": "NEUTRAL: ",
+      "commitMessagePrefix": "[NEUTRAL] ",
     },
     {
       "matchConfidence": ["low"],
