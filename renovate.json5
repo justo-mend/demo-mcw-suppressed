@@ -7,19 +7,22 @@
     {
       "matchConfidence": ["neutral"],
       "dependencyDashboardApproval": true,
-      "commitMessagePrefix": "[NEUTRAL] ",
+      "commitMessagePrefix": "[neutral] ",
     },
     {
       "matchConfidence": ["low"],
       "dependencyDashboardApproval": true,
-      "commitMessagePrefix": "[LOW] ",
+      "commitMessagePrefix": "[low] ",
     },
-    
-    /* Group High and Very High Confidence updates */
     {
-      "groupName": "high merge confidence",
-      "matchConfidence": ["high", "very high"],
-      "addLabels": ["High confidence"]
+      "matchConfidence": ["high"],
+      "dependencyDashboardApproval": true,
+      "commitMessagePrefix": "[high] ",
+    },
+    {
+      "matchConfidence": ["very high"],
+      "dependencyDashboardApproval": true,
+      "commitMessagePrefix": "[v-high] ",
     },
 
   ]
