@@ -3,7 +3,7 @@
   "extends": ["config:base"],
   "packageRules": [
   
-    /* Suppress Low and Neutral confidence updates - with a badge in the issue dashboard */
+    /* Suppress Low and Neutral confidence updates - MC prefix in the issue dashboard */
     {
       "matchConfidence": ["neutral"],
       "dependencyDashboardApproval": true,
