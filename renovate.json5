@@ -12,14 +12,14 @@
     {
       "matchConfidence": ["low"],
       "dependencyDashboardApproval": true,
-      "commitMessagePrefix": "LOW: ",
+      "commitMessagePrefix": "[LOW] ",
     },
     
     /* Group High and Very High Confidence updates */
     {
       "groupName": "high merge confidence",
       "matchConfidence": ["high", "very high"]
-      "addLabels": ["High/V-High Confidence"]
+      "addLabels": ["High Confidence"]
     },
 
   ]
