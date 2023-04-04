@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "packageRules": [
+  
+    /* Suppress Low and Neutral confidence updates - with a badge in the issue dashboard */
+    {
+      "matchConfidence": ["neutral"],
+      "dependencyDashboardApproval": true,
+      "commitMessagePrefix": "NEUTRAL: ",
+    },
+    {
+      "matchConfidence": ["low"],
+      "dependencyDashboardApproval": true,
+      "commitMessagePrefix": "LOW: ",
+    },
+    
+    /* Group High and Very High Confidence updates */
+    {
+      "groupName": "high merge confidence",
+      "matchConfidence": ["high", "very high"]
+      "addLabels": ["High/V-High Confidence"]
+    },
+
+  ]
+}
